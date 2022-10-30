@@ -1,0 +1,30 @@
+system:
+  device: cuda
+dataset:
+  dataroot: ''
+  dataset_csv: ''
+  num_classes: 100
+train:
+  seed: 2022
+  start_epoch: 1
+  num_epochs: 120
+  batch_size: 50
+  lr: 0.1
+  lr_patience: 10
+  momentum: 0.9
+  weight_decay: 1e-4
+  print_freq: 120
+  es_patience: 20
+  dataloader:
+    resize: 256
+    drop_last: True
+    pin_memory: True
+    shuffle: True
+    num_workers: 6
+    prefetch_factor: 5
+results:
+  run_folder: runs
+attack:
+  wm_batchsize: 50
+  trigger_data: ''
+  trigger_csv: ''

@@ -1,0 +1,22 @@
+system:
+  device: cuda
+train_on_mini:
+  cover_data: ''
+  secret_data: ''
+  cover_csv: ''
+  secret_csv: ''
+train:
+  seed: 2022
+  has_ckp: False
+  start_epoch: 1
+  es_patience: 20
+  num_epochs: 300
+  batchsize: 20
+  lr: 0.0001
+  print_freq: 10
+  dataloader:
+    resize: 256
+    drop_last: True
+    shuffle: True
+results:
+  run_folder: runs

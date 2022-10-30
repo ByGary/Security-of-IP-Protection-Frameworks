@@ -1,0 +1,39 @@
+system:
+  device: cuda
+dataset:
+  dataroot: ''
+  dataset_csv: ''
+  num_classes: 100
+trigger:
+  data: ''
+  csv: ''
+watermark:
+  wm_root: ''
+  wm_csv: ''
+  wm_num: 480
+  wm_class: 4
+  wm_batchsize: 10
+  wm_resize: 256
+train:
+  seed: 2022
+  pretrained_tech: False
+  fine_tuning: True
+  start_epoch: 1
+  num_epochs: 500
+  es_patience: 20
+  batchsize: 50
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 1e-4
+  loss_hyper_param: [6,6,0.1]
+  print_freq: 120
+  dataloader:
+    resize: 256
+    drop_last: True
+    shuffle: True
+    pin_memory: True
+    num_workers: 6
+    prefetch_factor: 5
+results:
+  run_folder: runs
+test: False

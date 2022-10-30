@@ -1,0 +1,13 @@
+dataset: ''
+dataroot: ''
+dataset_csv: ''
+num_epochs: 200
+batchsize: 100
+wm_num: [480]
+wm_batchsize: 20
+lr: [0.001, 0.1]
+hyper_parameters: [3, 5, 1, 0.1]
+save_path: 'runs'
+seed: 32
+pretrained: True
+print_freq: 120
