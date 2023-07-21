@@ -1,5 +1,5 @@
 # Enhanced Blind-Watermarking-Based IP Protection Technique
-PyTorch implementation of paper "Can Image Watermarking Efficiently Protect Deep‑Learning‑Based Image Classifiers? – A Preliminary Security Analysis of an IP‑Protecting Method" by Jia‑Hui Xie, Di Wu, Bo‑Hao Zhang, Hai Su and Huan Yang
+Official PyTorch implementation for paper [Can Image Watermarking Efficiently Protect Deep‑Learning‑Based Image Classifiers? – A Preliminary Security Analysis of an IP‑Protecting Method](https://link.springer.com/chapter/10.1007/978-3-031-36574-4_3)
 
 
 
